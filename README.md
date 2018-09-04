@@ -17,10 +17,10 @@
 　　　　 test_R：计算得出每gap个数据取一个平均值后的数据，及这两组数据的拟合优度R<br><br>
      
 　　2.usedbyplot.m （子函数）<br>
-　　使用的子函数包括：<br>　　 
-　　　　 ECG250：获取R波峰值点的位置信息
-　　　　 BP250_2：对BP信号进行滤波
-　　　　 find_peaks：结合R波信息，获取信息中峰值点位置
+　　使用的子函数包括：<br>
+        ECG250：获取R波峰值点的位置信息<br>
+　　　　 BP250_2：对BP信号进行滤波<br>
+　　　　 find_peaks：结合R波信息，获取信息中峰值点位置<br>
 　　　　 improvements_to_7step：对7-step滤波法的改进，用于获取PPG峰值异常点信息<br><br>
 
 　　3.ECG250.m （子函数）<br>
